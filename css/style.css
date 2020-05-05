@@ -1,0 +1,42 @@
+body {
+	background-color: #beebe9;
+	background-repeat: repeat-x;
+  font-family: Berlin Sans FB;
+	color: black;
+	margin: 8px;
+}
+
+hr {
+	border-style: none;
+	border-top-style: dotted;
+	border-color: white;
+	border-width: 7px;
+	width: 10%
+}
+
+.table {
+
+	background-color: #f4dada;
+	font: 14px/30px Georgia, serif;
+	color: #162447;
+}
+
+.header {
+	font-family: serif;
+	font-variant: small-caps;
+	color: #00909e;
+}
+
+.index {
+	background-color: #beebe9;
+}
+
+.hubungi {
+	background-color: #ffb6b9;
+}
+
+#bg{
+	font-family: cursive;
+	color: #f4dada;
+	border-radius: 100%;
+}

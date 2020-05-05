@@ -3,26 +3,45 @@
     <head>
 		<meta charset="utf-8">
         <title> Hubungi Saya </title>
-        
-    </head> 
-    <body>
-        <h1>Hubungi Saya</h1>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="hubungi">
+        <h1 class="header">Hubungi Saya</h1>
 		<form action="mailto:aditya_akhmad@student.ub.ac.id" method="post" enctype="text/plain">
-			<label>Nama Anda &emsp;&emsp;: </label>
-			<input type="text" name="Nama Anda" value=""><br>
-			<label>Email Anda &emsp;&emsp;: </label>
-			<input type="email" name="Email Anda" value=""><br>
-			<label for="phone">No.Telepon Anda:</label>
-			<input type="tel" id="phone" name="phone"
-				pattern="[0-9]{2}-[0-9]{11}"
-				required>
-				<small>Format: 62-85860708567</small><br>
-			<label>Pesan untuk saya : </label><br>
-			<textarea name="Pesan Anda" rows="10" cols="30"></textarea><br>
-			<input type="submit" name=""><br>
+      <table>
+        <tr>
+          <td><label>Nama Anda &emsp;&emsp; </label></td>
+          <td> : </td>
+          <td><input type="text" name="Nama Anda" value=""><br></td>
+        </tr>
+        <tr>
+          <td><label>Email Anda &emsp;&emsp; </label></td>
+          <td> : </td>
+          <td><input type="email" name="Email Anda" value=""><br></td>
+        </tr>
+        <tr>
+          <td><label for="phone">No.Telepon Anda </label></td>
+          <td> : </td>
+          <td><input type="tel" id="phone" name="phone"
+    				pattern="[0-9]{2}-[0-9]{11}"
+    				required>
+    				<small>Format: 62-85860708567</small><br>
+          </td>
+        </tr>
+        <tr>
+          <td><label>Pesan untuk saya </label><br></td>
+          <td> : </td>
+          <td><textarea name="Pesan Anda" rows="10" cols="30"></textarea><br></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td><input type="submit" name=""><br></td>
+        </tr>
+      </table>
 			<br>
+      <hr>
 		<a href="index.html">Beranda</a>
 
     </body>
 </html>
-
