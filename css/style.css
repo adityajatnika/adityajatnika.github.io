@@ -1,42 +1,168 @@
 body {
-	background-color: #beebe9;
-	background-repeat: repeat-x;
-  font-family: Berlin Sans FB;
 	color: black;
-	margin: 8px;
+	margin: 0;
+	font-family: 'Josefin Slab', serif;
+	font-size: 125%;
+	text-align: center;
 }
 
 hr {
 	border-style: none;
 	border-top-style: dotted;
-	border-color: white;
+	border-color: silver;
 	border-width: 7px;
 	width: 10%
 }
 
-.table {
-
-	background-color: #f4dada;
-	font: 14px/30px Georgia, serif;
-	color: #162447;
+h1 {
+	color: #00a1ab;
+	padding-top: 10px;
+	margin-bottom: 0;
+	font-family: 'Waiting for the Sunrise', cursive;
+	position: relative;
+	font-size: 4rem;
 }
 
-.header {
-	font-family: serif;
-	font-variant: small-caps;
-	color: #00909e;
+h2 {
+	color: #00a1ab;
+	font-family: 'Jost', sans-serif;
+
 }
 
-.index {
+h3 {
+	color: #00a1ab;
+	font-family: 'Jost', sans-serif;
+}
+
+p{
+	margin: 0;
+}
+
+.top-cont {
+	margin-top: 0px;
+  padding-top: 20px;
 	background-color: #beebe9;
+	position: relative;
 }
 
-.hubungi {
-	background-color: #ffb6b9;
+.middle-cont{
 }
 
-#bg{
-	font-family: cursive;
-	color: #f4dada;
+.bottom-cont{
+	padding-top: 80px;
+	margin-bottom: 80px;
+	padding-bottom: 80px;
+	background-color: #beebe9;
+	position: relative;
+}
+
+.header{
+	width: 90%;
+	margin: 0px 10px 10px 70px;
+	text-align: right;
+	font-size: 17.5px;
+	line-height: 2;
+	position: relative;
+}
+
+.logo{
+	float: left;
+	width: 75px;
+  height: 75px;
+	position: relative;
+	border-color: gold;
+	border-style: solid;
+  border-width: 5px;
+  border-radius: 100%;
+}
+
+.my-image1 {
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+	border-color: #beebe9;
+	border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.my-image2 {
+	width: 25%;
+	float: right;
+	margin-left: 30px;
+	border-color: #beebe9;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.my-image3 {
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+	border-color: #beebe9;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+
+.description{
+	width: 75%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin: 50px auto 100px auto;
+	text-align: left;
+  line-height: 2;
+}
+
+.profile{
+	width: 50%;
+	margin: 50px auto 50px auto;
+	line-height: 2;
+}
+
+.skills{
+	margin-top: 50px;
+}
+
+.footer{
+	line-height: 2;
+}
+
+a:link{
+    text-decoration: none;
+    color: #00a1ab;
+}
+a:hover {
+    color: dodgerblue;
+}
+
+a:active{
+    color: #beebe9;
+}
+
+#my-image {
 	border-radius: 100%;
+	width:40%;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 50%;
+	padding: 5px;
+	border-color: #beebe9;
+}
+
+#subtitle{
+	font-weight: bold;
+}
+
+#footer-line{
+	border-style: none;
+	border-top-style: solid;
+	border-color: silver;
+	border-width: 2px;
+	width: 300px;
 }
