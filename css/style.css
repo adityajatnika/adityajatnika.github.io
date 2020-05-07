@@ -49,8 +49,9 @@ p{
 }
 
 .bottom-cont{
-	padding-top: 80px;
+	padding-top: 40px;
 	margin-bottom: 80px;
+	margin-top: 30px;
 	padding-bottom: 80px;
 	background-color: #beebe9;
 	position: relative;
@@ -119,6 +120,20 @@ p{
   line-height: 2;
 }
 
+.atas{
+	margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+.tengah{
+	margin-bottom: 75px;
+  margin-top: 75px;
+}
+
+.bawah{
+	margin-top: 75px;
+}
+
 .profile{
 	width: 50%;
 	margin: 50px auto 50px auto;
@@ -131,6 +146,7 @@ p{
 
 .footer{
 	line-height: 2;
+	color: black;
 }
 
 a:link{
@@ -143,6 +159,34 @@ a:hover {
 
 a:active{
     color: #beebe9;
+}
+
+.menu-link{
+		font-size: 18px;
+}
+
+.footer-link{
+	 text-decoration: none;
+	 color: black;
+}
+
+.form{
+
+	width: 75%;
+	margin: 30px auto 50px auto;
+	text-align: left;
+	line-height: 2;
+}
+
+.judulhub{
+	position: relative;
+	margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+	text-align: center;
+  font-size: 130%;
+
 }
 
 #my-image {
