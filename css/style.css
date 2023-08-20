@@ -45,8 +45,8 @@ p{
 	position: relative;
 }
 
-.middle-cont{
-}
+/* .middle-cont{
+} */
 
 .bottom-cont{
 	padding-top: 40px;
@@ -152,7 +152,7 @@ a:link{
     color: #00a1ab;
 }
 a:hover {
-    color: dodgerblue;
+    color: blueviolet;
 }
 
 a:active{
@@ -160,16 +160,17 @@ a:active{
 }
 
 .menu-link{
-		font-size: 18px;
+	font-size: 18px;
+	color: #00a1ab;
 }
 
 .footer-link{
 	text-decoration: none;
 	color: #00a1ab;
+
 }
 
 .form{
-
 	width: 75%;
 	margin: 30px auto 50px auto;
 	text-align: left;
